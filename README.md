@@ -3,5 +3,13 @@ A FreeDOS-based operating system.<br>
 
 Copyright (C) 2018 Atnode and Ercan Ersoy<br>
 
+## Build
+
+For Microsoft Windows systems, you should use build.bat.
+For Linux systems, you should use build.sh.
+You should mkisofs to build.
+
 ## Note
-FreeDOS is a registered trademark to Jim Hall.
+FreeDOS is a registered trademark of Jim Hall.
+Linux is a registered trademark of Linus Tovarlds.
+Windows is a registered trademark of Microsoft Corporaion.

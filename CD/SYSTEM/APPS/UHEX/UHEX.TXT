@@ -1,0 +1,86 @@
+
+             uHex - a simple and fast multiplatform hex editor
+                   Copyright (C) Mateusz Viste 2013-2015
+
+
+
+*** Intro ***
+
+uHex is a simple and fast hex editor primarily written for DOS, but available
+for other systems, too. It has been written with care to work fast even on an
+8086 CPU, providing support for large files (up to 2 GiB) while using minimal
+amounts of memory. "uHex" stands for "micro Hex".
+uHex supports several video text modes (80x25, 80x43, 80x50.. and any other,
+as long as it has at least 80 columns), both in color and black & white modes.
+
+website: http://uhex.sourceforge.net
+
+
+*** Hardware requirements (DOS version) ***
+
+uHex has very low requirements. It runs on anything that provides:
+ - an 8086/8088 compatible CPU,
+ - a MS-DOS 2.0 compatible operating system,
+ - ca. 20K of free conventional memory,
+ - an 80 columns video mode.
+
+
+*** How to use ***
+
+Run uHex using at least the file you'd like to open as a parameter (possibly
+with additional parameters).
+
+Usage: uhex file [/mono | /color] [/ro]
+
+ /mono   forces monochrome display mode
+ /color  forces color display mode
+ /ro     opens the file in read-only mode
+
+Once uHex is launched, the following key bindings are available:
+
+ALT+H - Help (F1 works too)
+ALT+J - Jump to offset
+ALT+F - Find an ASCII or HEX string occurence
+ALT+S - Save file, applying all modifications
+ALT+U - Undo all modifications (reverts the file from disk)
+ESC   - Quit uHex
+
+
+*** How to build ***
+
+I built uHex using the Borland Turbo C 2.01 compiler, altough any C89 compiler
+should be okay, as long as it provides int86() facilities.
+
+Since v1.0.2, uHex can also be compiled for platforms other than DOS, using
+gcc and the curses-based I/O driver.
+Since v1.0.3 compilation for Windows NT using the WinAPI-based I/O driver is
+supported.
+
+
+*** License ***
+
+uHex is written by Mateusz Viste, and released under the BSD "2-clause"
+license, included below.
+
+ Copyright (C) 2013,2014,2015 Mateusz Viste
+ All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+ 1. Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

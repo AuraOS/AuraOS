@@ -1,0 +1,18 @@
+This is SQLite-3.5.6 compiled with DJGPP
+
+SQLite is a small SQL database which you can link with your application program.
+For details see: www.sqlite.org
+
+The binaries sqlite3.exe and libsqlite3.a are in the examples directory. The
+sqlite3.exe is a tool to generate and manipulate databases, libsqlite3.a is
+the library to link with your application program.
+
+Otherwise this directory contains the source for SQLite-3.5.6.
+
+Compile with:
+sh configure --disable-tcl --disable-threadsafe
+make
+
+I tested many versions of SQLite and this does work best with DOS.
+
+20th Feb. 2013 Georg Potthast

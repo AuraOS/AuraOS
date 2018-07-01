@@ -1,0 +1,4 @@
+
+A driver for computer LPT ports (parallel "CENTRONICS"). It allow to change easily the logic states of any pins, either manually or automatically (on a predefined time basis).
+
+With a small electronic circuit we can for example drive electric devices trought the PC. The program can support max. 24 devices and 3 LPT ports (0x287, 0x387 and 0x3BC). There is no need to build an additional electronic circuit for small power devices like LEDs (10-20mA), but for bigger projects (motors, etc.), the circuit is needed.

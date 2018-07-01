@@ -1,0 +1,34 @@
+
+* uHex history file *
+
+
+uHex v1.0.4 [27 Aug 2015]
+ - If file opening fails, uHex shows an error message (was hidden in v1.0.3),
+ - Fixed potential crashes when user tries to find (ALT+F) an empty string.
+
+uHex v1.0.3 [03 Jun 2015]
+ - Fixed CGA/MDA/HGC card support (screen height was wrongly detected),
+ - Fixed a buffer reusage that was making the search routine to miss matches,
+ - Linux port uses the '-' prefix for command line options instead of '/',
+ - Added a read cache to limit disk I/O (nice when using files on floppies),
+ - Color highlight for unsaved changes (kindly contributed by Alexey Voskov),
+ - Video output uses direct memory access instead of BIOS (Alexey Voskov),
+ - uHex port to the win32 platform (Alexey Voskov),
+ - Lots of micro optimizations to make the code faster and more compact.
+
+uHex v1.0.2 [10 May 2015]
+ - fixed possible crashes when using the 'search' function caused by
+   dereferencing a NULL pointer,
+ - general code cleanup and reorganisation,
+ - versioning changed from 1.0x to 1.0.x (hence this is v1.0.2, not v1.02),
+ - relicensed uHex from GNU GPL to the "2-clause" BSD license,
+ - added a curse-based I/O driver for porting to POSIX systems.
+
+uHex v1.01 [20 Feb 2013]
+ - uHex became a hex editor now (not just a viewer anymore),
+ - added the 'jump to offset' function (ALT+j),
+ - added the 'find' function (ALT+f),
+ - added an embedded help (ALT+h or F1).
+
+uHex v1.0 [09 Feb 2013]
+ - First public release.
