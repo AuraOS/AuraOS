@@ -1,6 +1,6 @@
 AuraOS
 
-  A FreeDOS-based operating system.
+  A FreeDOS-based operating system
 
   Copyright (C) 2018 Atnode and Ercan Ersoy
 
@@ -9,7 +9,7 @@ Build:
 
   For Microsoft Windows systems, you should use build.bat.
   For Linux systems, you should use build.sh.
-  You should mkisofs to build.
+  You should use mkisofs to build.
 
 
 Note:
