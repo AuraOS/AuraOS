@@ -1,0 +1,13 @@
+0.0:Kullancnn se‡eneklerin bir listesi i‡in bir tuŸa basmas i‡in bekler
+0.1:se‡enekler
+0.2:metin
+0.3:˜zin verilebilir tuŸlar tanmlar.  Varsaylan:
+0.4:˜stemin sonunda se‡enekleri g”rntlemez
+0.5:Byk-k‡k harfe duyarl
+0.6:nn saniyelerin sonunda c tuŸunu kendili§inden se‡er
+0.7:˜stem olarak g”rntlenecek metin
+0.8:˜stem srasnda bir uyar sesi ‡kar
+3.0:eh
+
+0.9:YanlŸ zaman aŸm s”zdizimi. Beklenen bi‡im Tc,nn ya da T:c,nn
+0.10:Varsaylan zaman aŸm se‡enekler arasndan tanml (veya varsaylan) de§il.

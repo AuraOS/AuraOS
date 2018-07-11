@@ -1,0 +1,42 @@
+#### Help        ####
+1.0:òki dosya ya da dosyalarçn bîlÅmlerini karüçlaütçrçr ve onlarçn arasçnda olan farklçlçklarç gîrÅntÅler
+1.1:FC [seáenekler] [drive1:][path1]dosya_ismi1 [drive2][path2]dosya_ismi2 [seáenekler]
+1.2: /A    Her deßiüikliklerin bîlÅmleri iáin yalnçzca ilk ile son satçrlarçnç gîrÅntÅler
+1.3: /B    Bir ikili karüçlaütçrma yapar
+1.4: /C    BÅyÅk-kÅáÅk harf ayrçmçna înem vermez
+1.5: /L    Dosyalarç ASCII metin olarak karüçlaütçrçr
+1.6: /Mn   En áok ikili karüçlaütçrmada olan farklarç n bayt kadar belirtir
+1.7:       (varsayçlan = %d, 0 = sçnçr yok, /M = /M0)
+1.8: /N    Bir metin karüçlaütçrmasçnda satçr numaralarçnç gîrÅntÅler
+1.9: /S    Aramayç alt dizinlerde olan dosyalarda geniületir
+1.10: /T    Sekmeleri boüluklara geniületmez
+1.11: /W    Metin karüçlaütçrma iáin boü alanlarç (sekmeler ile boüluklar) sarar
+1.12: /X    Metin karüçlaütçrmada baßlam satçrlarçnç gîrÅntÅlemez
+1.13: /LBn  En áok ardçüçk farklç ASCII satçrlarçnç n sayçsç kadar belirtir
+1.14: /nnn  Karüçlaütçrma eüzamanlamasç iáin en az ardçüçk eüleüen satçrlarç
+1.15:       nnn sayçsç kadar belirtir
+1.16: /R    Son bir kçsa bilgi gîrÅntÅler (her zaman /S kullançlçrsa etkin olur)
+1.17: /Q    Farklçlçklarçn listesini gîrÅntÅlemez
+1.18: /U    Dosya isimlerini dosyalarçn bir eüi olmadan gîrÅntÅler
+#### Messages    ####
+2.0:Geáersiz seáenek: %s
+2.1:Äok fazla dosya belirtimi
+2.2:Geáersiz dosya ismi
+2.3:Hiá dosya belirtilmedi
+2.4:Uyarç: dosyalar farklç boyutlarda!
+2.5:%d hatadan sonra karüçlaütçrma durdu
+2.6:Farklçlçk yok
+2.7:Uyarç: %d satçr sonra karüçlaütçrma kesildi
+2.8:Yetersiz bellek
+2.9:%s dosyasç aáçlmasçnda hata
+2.10:%s ile %s karüçlaütçrçlmasç
+2.11:Dosya ya da dizin deßil
+2.12:Yeniden eü zamanlama baüarçsçz oldu: dosyalar áok farklç
+2.13:Dosyalar farklç boyutlarda
+2.14:Dosyalar farklç
+2.15:%s dosyasç (%s) eüine sahip deßil
+#### Report text ####
+3.0:%d dosyalarç karüçlaütçrçldç
+3.1: %d dizinlerinde
+3.2:%d dosyalarç karüçlaütçrçlmasç, %d dosyalarç farklç
+3.3:%d dosyalarç hiá eüe sahip deßil

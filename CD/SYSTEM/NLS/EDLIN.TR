@@ -1,0 +1,54 @@
+# edlin.tr - Turkish-language messages file
+#
+# Author: Gregory Pietsch
+# Translator: Ercan Ersoy
+#
+# DESCRIPTION:
+#
+# This file contains #defines for all the message strings in edlin.
+# For internationalization fun, just translate the messages in this
+# file.
+#
+# The strings were generated using ESR's cstrings program and moved
+# here.
+
+1.0:Ee
+1.1:\040:\040
+1.2:Tamam?\040
+1.3:Giriü hatasç
+1.4:%s: %lu satçr okunuyor\n
+1.5:%s: %lu satçr okunuyor\n
+1.6:%s: %lu satçr yazçlçyor\n
+1.7:%s: %lu satçr yazçlçyor\n
+1.8:%lu:%c%s\n
+1.9:SÅrdÅrmek iáin <Enter>'e basçnçz
+1.10:%lu:\040
+1.11:Bulunmadç
+1.12:%lu: %s\n
+1.13:\nedlin izleyen alt komutlara sahiptir:\n
+1.14:#                bir tek satçrç dÅzenlemek   [#],[#],#m       taüçmak
+1.15:a                eklemek                     [#][,#]p         sayfa
+1.16:[#],[#],#,[#]c   kopyalamak                  q                áçkmak
+1.17:[#][,#]d         silmek                      [#][,#][?]r$,$   yenilemek
+1.18:e<>              son (yazma ile áçkma)       [#][,#][?]s$     arama
+1.19:[#]i             insert                      [#]t<>           aktarma
+1.20:[#][,#]l         listelemek                  [#]w<>           yazma\n
+1.21:$'nin bir karakter dizisi Åzerine ise <> bir dosya ismidir,
+1.22:# bir numaradçr (.=geáerli satçr, $=son satçr,
+1.23:ya da + sayç veya - dißer sayç).\n
+1.24:, telif hakkç (c) 2003 Gregory Pietsch
+1.25:Bu program KESòNLòKLE TEMòNAT VERMEME ile gelir.
+1.26:Bu îzgÅr yazçlçmdçr ve bunu GNU Genel Kamu Lisansç'nçn
+1.27:koüullarç (lisansçn sÅrÅm 2 ya da sizin seáiminize gîre
+1.28:herhangi sonra olan sÅrÅm) kapsamçnda yeniden daßçtmaya
+1.29:hakkçnçz vardçr.\n
+1.30:Bellek yetersiz
+1.31:Karakter dizisi uzunlußu hatasç
+1.32:Karakter dizisi konumu hatasç
+1.33:Geáersiz kullançcç giriüi, yardçm iáin ? kullançn.
+1.34:Dosya ismi yok
+1.35:Tampon áok bÅyÅk
+1.36:Geáersiz tampon konumu
+1.37:HATA: %s\n
+
+# END OF FILE
